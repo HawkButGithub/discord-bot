@@ -35,7 +35,7 @@ nextLvl: Number,
 currentXp: Number,
 nextXp: Number */
 
-if(!message.channel.parent.id.includes("929688785946566686") && !message.channel.parent.id.includes("928390226315980860") && !message.channel.parent.id.includes("928390074486390915") && !message.channel.parent.id.includes("928395673974480916") && !message.channel.parent.id.includes("928395673974480916") && !message.channel.parent.id.includes("928398612193501305") && !message.channel.parent.id.includes("929683535328075796") && !message.channel.name.includes("ticket")) {
+if(!message.channel.parent || !message.channel.parent.id.includes("929688785946566686") && !message.channel.parent.id.includes("928390226315980860") && !message.channel.parent.id.includes("928390074486390915") && !message.channel.parent.id.includes("928395673974480916") && !message.channel.parent.id.includes("928395673974480916") && !message.channel.parent.id.includes("928398612193501305") && !message.channel.parent.id.includes("929683535328075796") && !message.channel.name.includes("ticket")) {
 var currentXP = data.currentXp + 23
 data.currentXp = currentXP
 
