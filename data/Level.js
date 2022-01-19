@@ -17,4 +17,4 @@ nextXp: Number
 
 const levelSchema = conn.model('Level', schema);
 
-module.exports = levelSchema;
+module.exports = levelSchema; 
